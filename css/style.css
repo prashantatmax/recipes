@@ -1,0 +1,66 @@
+* {
+  background-color:rgb(241, 245, 222);
+  box-sizing: border-box;
+
+}
+
+h1 {
+  color: darkred;
+  font-size: xx-large;
+  
+}
+
+h2 {
+  color: #010f01;
+}
+
+h3 {
+  color: rgb(2, 15, 79);
+  font-size: 24;
+}
+
+h1, h2, h3, h4 {
+font-weight: bold;
+}
+
+.description {
+  font-size: large;
+}
+
+.recipe-name a{
+  font-size: x-large;
+  color: black;
+  font-style: italic;
+
+}
+
+ul {
+  color: #001748;
+  font-size: 20px;
+  font-family: Papyrus;
+  font-weight: 600;
+  
+}
+
+ol {
+  color: rgb(46, 0, 37);
+  font-size: 20px;
+  font-family: Papyrus;
+  font-weight: 600;
+}
+
+button a{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  font-weight: bold;
+  
+}
+
+button {
+  color: rgb(243, 245, 241);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 0;
+  padding: 4px 12px;
+}
