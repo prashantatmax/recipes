@@ -1,67 +1,92 @@
 * {
-  background-color:rgb(241, 245, 222);
   box-sizing: border-box;
-
+  max-width: 700px;
+  margin:0 auto;
+  
 }
+h1{
+  border: 2px solid saddlebrown;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
 
-h1 {
-  color: darkred;
-  font-size: xx-large;
   
 }
 
-h2 {
-  color: #010f01;
-}
+.header {
+ 
+  border: 2px solid blue;
+   padding: 10px;
+  margin: 1px 10px;
+  display: inline-block;
 
-h3 {
-  color: rgb(2, 15, 79);
-  font-size: 24;
-}
-
-h1, h2, h3, h4 {
-font-weight: bold;
 }
 
 .description {
-  font-size: large;
+  border: 1px solid rosybrown;
+  margin: 10px ;
+  padding: 10px;
 }
 
-.recipe-name a{
-  font-size: x-large;
-  color: black;
-  font-style: italic;
-  font-family: Arial, Helvetica, sans-serif;
-
+h2 {
+  padding :10px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 10px;
+}
+div { 
+  display: inline-block;
 }
 
-ul {
-  color: #001748;
-  font-size: 20px;
-  font-family: Papyrus Arial, Helvetica, sans-serif;
-  font-weight: 600;
+.menu-body {
+  border: 2px solid black; 
+  text-align: center;
+  margin: 10px solid white;
+  width: auto;
+}
+
+.menu {
+  margin: 10px ;
+  border: 2px solid blueviolet;
   
+
 }
 
-ol {
-  color: rgb(46, 0, 37);
-  font-size: 20px;
-  font-family: Papyrus Arial, Helvetica, sans-serif;
-  font-weight: 600;
+.ingredients , 
+.steps {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid steelblue;
 }
 
-button a{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 19px;
-  font-weight: bold;
-  
-}
 
 button {
-  color: rgb(243, 245, 241);
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
-  border: 0;
-  padding: 4px 12px;
+  margin: 20px;
+  padding: 5px 8px;
 }
+
+
+
+body {
+  border: 1px solid red;
+  padding: 10px;
+
+}
+
+p {
+  margin: 10px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
