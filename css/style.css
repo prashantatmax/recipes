@@ -3,80 +3,136 @@
   max-width: 700px;
   margin:0 auto;
   
-}
-h1{
-  border: 2px solid saddlebrown;
-  margin: 10px;
+
+  body {
   padding: 10px;
-  display: inline-block;
+  background-color: rgb(251, 247, 226);
+  border: 2px solid red;
+}
+
+p {
+  margin: 10px;
+  margin-top: 20px;
+}
+  
+
+
+img {
+  border-radius: 20px;
+}
 
   
 }
+h1{
+
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  background-color:#9d2222;
+  color: white; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button a {
+  background-color: #9d2222;  
+  color:white
+}
+
+.header a {
+  font-size: 24px;
+}
+
+button {
+  margin: 20px;
+  background-color:#9d2222 ;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#homepage {
+   font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+  margin: 10px ;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  border-radius: 10p
+}
 
 .header {
- 
-  border: 2px solid blue;
-  padding: 5px;
   margin: 1px 10px;
-  display: inline-block;
+  display: block;
+  background-color:#9d2222 ;
 
 }
 
 .description {
-  border: 1px solid rosybrown;
+  font-family:Verdana, Geneva, Tahoma, sans-serif  ;
   margin: 10px ;
+  background-color: rgb(93, 70, 62);
   padding: 10px;
+  color: white;
+  border-radius: 10px;
 }
 
 h2 {
   padding :10px;
-  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
   display: inline-block;
   margin: 10px;
 }
+
+.description h3 {
+  color: white;
+}
+
+
 div { 
   display: inline-block;
 }
 
 .menu-body {
-  border: 2px solid black; 
+   
+  border-radius: 12px;
   text-align: center;
-  margin: 10px solid white;
+  margin: 10px;
   width: auto;
+  background-color: rgb(30, 36, 38);
+ 
 }
 
 .menu {
   margin: 10px ;
-  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  width: 250px;
   
-
 }
+
+
+h3 , h4{
+  padding: 10px;
+  color: rgb(101, 50, 50);
+  margin: 3px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 
 .ingredients , 
 .steps {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
   padding: 10px;
   margin: 10px;
-  border: 2px solid steelblue;
-}
-
-
-button {
-  margin: 20px;
-  padding: 5px 8px;
+  display: block;
+  border-radius: 12px;
 }
 
 
 
-body {
-  border: 1px solid red;
-  padding: 10px;
 
-}
 
-p {
-  margin: 10px;
-}
-  
 
 
 
